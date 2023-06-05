@@ -5,4 +5,5 @@ get "/routines" => "routines#index"
 
 post "/users" => "users#create"
 post "/sessions" => "sessions#create"
+post "/routines" => "routines#create"
 end
